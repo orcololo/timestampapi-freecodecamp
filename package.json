@@ -1,0 +1,41 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "YOUR DESCRIPTION",
+  "main": "index.js",
+  "author": "Rhian Castro",
+  "license": "GPL-3.0",
+  "private": false,
+  "keywords": [
+    "key",
+    "words"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orcololo/timestampapi-freecodecamp"
+  },
+  "bugs": {
+    "url": "https://github.com/orcololo/timestampapi-freecodecamp/issues"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "npx jest",
+    "lint": "npx eslint src/*.js",
+    "lint:fix": "npx eslint src/*.js --fix",
+    "format": "npx prettier src/*.js --write",
+    "dev": "npx nodemon src/index"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  }
+}
